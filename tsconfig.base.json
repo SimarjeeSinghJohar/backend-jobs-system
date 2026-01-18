@@ -21,5 +21,7 @@
       "@backend-jobs/shared": ["./packages/shared/src"]
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "include": ["prisma/**/*"],
+
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]
 }
