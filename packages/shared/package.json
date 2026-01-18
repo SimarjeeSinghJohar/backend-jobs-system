@@ -1,0 +1,12 @@
+{
+  "name": "@backend-jobs/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and types for backend jobs system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {}
+}
