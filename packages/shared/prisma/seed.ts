@@ -1,7 +1,7 @@
 const { PrismaClient } = require("@prisma/client");
 const { randomUUID } = require("crypto");
 
-const prisma = new PrismaClient();
+export const prisma = new PrismaClient();
 
 async function main() {
     console.log("Start Seeding...");
