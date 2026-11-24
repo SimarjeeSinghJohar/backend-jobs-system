@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
-    "dev:api": "npm run dev --workspace=apps/api",
-    "dev:worker": "npm run dev --workspace=apps/worker",
+    "dev:api": "npm run build && npm run dev --workspace=apps/api",
+    "dev:worker": "npm run build && npm run dev --workspace=apps/worker",
     "start:api": "npm run start --workspace=apps/api",
     "start:worker": "npm run start --workspace=apps/worker",
     "lint": "eslint . --ext .ts",
